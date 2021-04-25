@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "12.0.0 20210423 (experimental)")
+(!version  "12.0.0 20210425 (experimental)")
 (!srcdir  "../../gcc/gcc")
 (!languages 11 ada brig c cp d fortran go jit lto objc objcp)
 (!fileslist 223
@@ -27535,7 +27535,7 @@
    (!type already_seen 1985)
   )
   gc_pointed_to "cp_parser"
-  (!srcfileloc  "cp/parser.c" 44826)
+  (!srcfileloc  "cp/parser.c" 44829)
   (!fields 38 
    (!pair  "lexer"
     (!type already_seen 1971)
@@ -28827,7 +28827,7 @@
   nil 0 nil nil )
  
  (!type undefined 2146 nil  gc_unused "class_to_loc_map_t::iterator"
-  (!srcfileloc  "cp/parser.c" 32543)
+  (!srcfileloc  "cp/parser.c" 32546)
  )
  
  (!type struct 2147 
@@ -30076,15 +30076,15 @@
   nil )
  (!pair  "cp_parser"
   (!type already_seen 1985)
-  (!srcfileloc  "cp/parser.c" 44826)
+  (!srcfileloc  "cp/parser.c" 44829)
   nil )
  (!pair  "iter_t"
   (!type already_seen 2146)
-  (!srcfileloc  "cp/parser.c" 32543)
+  (!srcfileloc  "cp/parser.c" 32546)
   nil )
  (!pair  "class_to_loc_map_t::iterator"
   (!type already_seen 2146)
-  (!srcfileloc  "cp/parser.c" 32543)
+  (!srcfileloc  "cp/parser.c" 32546)
   nil )
  (!pair  "cp_parser_expression_stack"
   (!type array 2269 nil  gc_unused "NUM_PREC_VALUES" 
@@ -34490,11 +34490,11 @@
   nil )
  (!pair  "generic_parm_count"
   (!type already_seen 2)
-  (!srcfileloc  "cp/parser.c" 45318)
+  (!srcfileloc  "cp/parser.c" 45321)
   nil )
  (!pair  "the_parser"
   (!type already_seen 1986)
-  (!srcfileloc  "cp/parser.c" 44826)
+  (!srcfileloc  "cp/parser.c" 44829)
   nil )
  (!pair  "cp_parser_decl_specs_attrs"
   (!type already_seen 84)
