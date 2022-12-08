@@ -13,8 +13,10 @@
 #define __stub___compat_query_module
 #define __stub___compat_uselib
 #define __stub_chflags
+#define __stub_epoll_create
 #define __stub_fchflags
 #define __stub_gtty
+#define __stub_inotify_init
 #define __stub_revoke
 #define __stub_setlogin
 #define __stub_sigreturn
