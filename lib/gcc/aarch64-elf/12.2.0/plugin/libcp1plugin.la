@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/drone/src/builder/aarch64-elf/lib/gcc/aarch64-elf/12.2.0/plugin'
+libdir='/workspace/build-tools-gcc/aarch64-elf/lib/gcc/aarch64-elf/12.2.0/plugin'

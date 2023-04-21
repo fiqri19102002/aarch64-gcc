@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/drone/src/builder/aarch64-elf
+  prefix=/workspace/build-tools-gcc/aarch64-elf
 fi
 
 # Allow for alternate isysroot in which to find headers
