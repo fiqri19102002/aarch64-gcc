@@ -1,0 +1,4 @@
+/* GNU ld script
+*/
+OUTPUT_FORMAT(elf64-littleaarch64)
+GROUP ( /root/project/builder/aarch64-linux-gnu/aarch64-linux-gnu/lib/libm-2.38.a /root/project/builder/aarch64-linux-gnu/aarch64-linux-gnu/lib/libmvec.a )

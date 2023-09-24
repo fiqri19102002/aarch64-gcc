@@ -1,0 +1,4 @@
+/* GNU ld script
+*/
+OUTPUT_FORMAT(elf64-littleaarch64)
+GROUP ( /root/project/builder/aarch64-linux-gnu/aarch64-linux-gnu/lib/libm.so.6  AS_NEEDED ( /root/project/builder/aarch64-linux-gnu/aarch64-linux-gnu/lib/libmvec.so.1 ) )
